@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Pet's Care</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+			<li><a href="index.html">HOME</a></li>
+		   <li><a href="index.html">CATEGORIES</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="index.html">CONTACT</a></li>
+
+		</ul>
+
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+
+
+<section class="food">
+<h1>FOOD FOR YOUR PET'S</h1>
+
+<div class="row">
+			<div class="food-col">
+				<div class="services">
+					<div class="services img">
+						<img src="images/image15.png">
+		
+			</div>
+			</div>
+		</div>
+		<div class="food-col">
+				<div class="services">
+					<div class="services img">
+						<img src="images/images10.jpg">
+
+				
+			</div>
+			</div>
+			</div>
+
+			<div class="food-col">
+				<div class="services">
+					<div class="services img">
+						<img src="images/image5.jpg">
+		
+			</div>
+			</div>
+			</div>
+		
+		
+
+</section>
+
+
+
+
+
+<!-------Javascript for Toggle Menu -------->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>
